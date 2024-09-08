@@ -1,0 +1,152 @@
+
+@media only screen and (max-width: 1024px) {
+    .main-container {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 1559px) {
+    .main-container {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 1280px){
+    .main-container {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 834px){
+    .main-container {
+        width: 90%;
+    }
+    #header h2 {
+        font-size: 22px;
+    }
+    
+}
+@media only screen and (max-width: 884px){
+    .main-container {
+        width: 90%;
+    }    
+    #header h2 {
+        font-size: 22px;
+    }
+    
+}
+@media only screen and (max-width: 800px) {
+    .main-container {
+        width: 90%;
+        flex-direction: column; /* Stack sections vertically */
+    }
+    
+    #left-section, .second-section {
+        width: 100%; /* Make sections full-width */
+    }
+}@media only screen and (max-width: 600px) {
+    .main-container {
+        width: 100%; /* Full width for smaller screens */
+        margin: 10px; /* Add margin for spacing */
+    }
+
+    #left-section, .second-section {
+        padding: 20px; /* Reduce padding */
+    }
+
+    #header h2 {
+        font-size: 24px; /* Adjust font size */
+    }
+
+    #header span {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    button {
+        width: 100%; /* Full width button */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .second-section img {
+        height: 180px; /* Reduce image size */
+    }
+
+    .second-section h3 {
+        font-size: 20px; /* Adjust font size */
+    }
+
+    .second-section p {
+        font-size: 14px; /* Adjust font size */
+    }
+}
+@media only screen and (max-width: 480px) {
+    .main-container {
+        padding: 10px; 
+        margin-top: 20vh;
+    }
+
+    .second-section h3 {
+        font-size: 14px; 
+    }
+
+    .second-section p {
+        font-size: 13px;
+    }
+    #header h2 {
+        font-size: 18px;
+    }
+    .radio-list h2{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .main-container {
+        width: 100%;
+        padding: 5px; /* Reduce padding for small screens */
+        margin-top: 15vh; /* Adjust margin-top for smaller viewport */
+    }
+
+    #left-section, .second-section {
+        padding: 15px; /* Further reduce padding */
+    }
+
+    #header h2 {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    #header span {
+        font-size: 12px; /* Smaller font size */
+    }
+
+    button {
+        width: 100%; /* Full width button */
+        padding: 8px; /* Smaller padding */
+    }
+
+    .second-section img {
+        height: 150px; /* Reduce image size further */
+    }
+
+    .second-section h3 {
+        font-size: 14px; /* Adjust heading size */
+    }
+
+    .second-section p {
+        font-size: 12px; /* Smaller text size */
+    }
+
+    .radio-list h2 {
+        font-size: 14px; /* Smaller font size for radio list heading */
+    }
+
+    .input-group-one input, .input-group input {
+        font-size: 14px; /* Smaller input font size */
+    }
+
+    .input-prefix, .input-suffix {
+        padding: 10px 15px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size */
+    }
+
+    .radio-item label {
+        padding: 15px 40px; /* Adjust padding for radio labels */
+        font-size: 12px; /* Smaller font size */
+    }
+}
